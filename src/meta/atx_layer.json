@@ -1,0 +1,302 @@
+{
+    "layer": [
+        {
+            "id": 0,
+            "key": "a",
+            "layer": "hexagon",
+            "subtype": [
+                "unloaded",
+                "loaded"
+            ],
+            "mesh": "Shape",
+            "source": "Adaptive Hex",
+            "objects": "238",
+            "visible": true,
+            "hover": false
+        },
+        {
+            "id": 1,
+            "key": "7",
+            "layer": "osm_point",
+            "subtype": [
+                "address",
+                "amenity",
+                "infrastructure",
+                "parking",
+                "natural"
+            ],
+            "mesh": "Point",
+            "source": "Open Street Map (.osm)",
+            "objects": "6,834",
+            "visible": false,
+            "hover": false
+        },
+        {
+            "id": 2,
+            "key": "31",
+            "layer": "transit_point",
+            "subtype": [
+                "bus",
+                "unknown",
+                "bicycle"
+            ],
+            "mesh": "Point",
+            "source": "Open Street Map (.osm)",
+            "objects": "454",
+            "visible": false,
+            "hover": false
+        },
+        {
+            "id": 3,
+            "key": "2",
+            "layer": "street",
+            "subtype": [
+                "residential",
+                "motorway_link",
+                "primary_link",
+                "secondary_link",
+                "motorway",
+                "unclassified",
+                "tertiary_link",
+                "primary",
+                "living_street",
+                "tertiary",
+                "track",
+                "secondary"
+            ],
+            "mesh": "Path",
+            "source": "Open Street Map (.osm)",
+            "objects": "1,084",
+            "visible": true,
+            "hover": false
+        },
+        {
+            "id": 4,
+            "key": "30",
+            "layer": "transit_path",
+            "subtype": [
+                "bicycle",
+                "train",
+                "bus",
+                "railway",
+                "rail"
+            ],
+            "mesh": "Path",
+            "source": "Open Street Map (.osm)",
+            "objects": "375",
+            "visible": false,
+            "hover": false
+        },
+        {
+            "id": 5,
+            "key": "6",
+            "layer": "footway",
+            "subtype": [
+                "service",
+                "unclassified",
+                "footway",
+                "pedestrian",
+                "steps",
+                "path"
+            ],
+            "mesh": "Path",
+            "source": "Open Street Map (.osm)",
+            "objects": "6,094",
+            "visible": false,
+            "hover": false
+        },
+        {
+            "id": 6,
+            "key": "9",
+            "layer": "natural_path",
+            "subtype": [
+                "stream",
+                "drain",
+                "river",
+                "dam"
+            ],
+            "mesh": "Path",
+            "source": "Open Street Map (.osm)",
+            "objects": "58",
+            "visible": true,
+            "hover": false
+        },
+        {
+            "id": 7,
+            "key": "0",
+            "layer": "building",
+            "subtype": [
+                "building",
+                "construction"
+            ],
+            "mesh": "Mesh",
+            "source": "Open Street Map (.osm)",
+            "objects": "13,940",
+            "visible": true,
+            "hover": false
+        },
+        {
+            "id": 8,
+            "key": "8",
+            "layer": "locale",
+            "subtype": [
+                "water",
+                "campus",
+                "pedestrian",
+                "park",
+                "sand"
+            ],
+            "mesh": "Shape",
+            "source": "Open Street Map (.osm)",
+            "objects": "385",
+            "visible": true,
+            "hover": false
+        },
+        {
+            "id": 9,
+            "key": "1",
+            "layer": "parking",
+            "subtype": [
+                "garage",
+                "surface"
+            ],
+            "mesh": "Mesh",
+            "source": "Open Street Map (.osm)",
+            "objects": "250",
+            "visible": true,
+            "hover": false
+        },
+        {
+            "id": 10,
+            "key": "b",
+            "layer": "block",
+            "subtype": [
+                "block"
+            ],
+            "mesh": "Shape",
+            "source": "Adaptive",
+            "objects": "1,069",
+            "visible": true,
+            "hover": false
+        },
+        {
+            "id": 11,
+            "key": "4",
+            "layer": "parcel",
+            "subtype": [
+                "simple",
+                "complex"
+            ],
+            "mesh": "Shape",
+            "source": "City of Austin",
+            "objects": "15,555",
+            "visible": false,
+            "hover": false
+        },
+        {
+            "id": 12,
+            "key": "5",
+            "layer": "zoning",
+            "subtype": [
+                "GR",
+                "CBD",
+                "GO",
+                "CS-1-MU",
+                "CS-MU",
+                "P",
+                "GR-MU",
+                "LO-MU",
+                "CS-1",
+                "MF-4",
+                "SF-5",
+                "DMU",
+                "CS",
+                "LO",
+                "PUD",
+                "SF-3",
+                "MF-1",
+                "GO-MU",
+                "MF-3",
+                "SF-2",
+                "LI",
+                "LR",
+                "UNZ",
+                "MF-2",
+                "LR-MU",
+                "MF-5",
+                "MF-6",
+                "ERC",
+                "SF-6",
+                "SF-4A",
+                "NO-MU",
+                "NO",
+                "TOD",
+                "L",
+                "CH"
+            ],
+            "mesh": "Shape",
+            "source": "City of Austin",
+            "objects": "3,276",
+            "visible": false,
+            "hover": false
+        },
+        {
+            "id": 13,
+            "key": "c",
+            "layer": "graph",
+            "subtype": [
+                "population"
+            ],
+            "mesh": "Morph",
+            "source": "Adaptive",
+            "objects": "1,069",
+            "visible": false,
+            "hover": false
+        },
+        {
+            "id": 14,
+            "key": "d",
+            "layer": "capacity",
+            "subtype": [
+                "SF-3",
+                "TOD",
+                "CS",
+                "MF-6",
+                "GO-MU",
+                "MF-3",
+                "CBD",
+                "MF-4",
+                "LO",
+                "LI",
+                "CS-MU",
+                "GO",
+                "GR-MU",
+                "CS-1",
+                "DMU",
+                "LO-MU",
+                "LR-MU",
+                "L",
+                "PUD",
+                "MF-2",
+                "CS-1-MU",
+                "MF-5",
+                "SF-2",
+                "MF-1",
+                "SF-6",
+                "LR",
+                "GR",
+                "SF-4A",
+                "SF-5",
+                "ERC",
+                "NO-MU",
+                "NO",
+                "CH"
+            ],
+            "mesh": "Mesh",
+            "source": "Adaptive",
+            "objects": "15,087",
+            "visible": false,
+            "hover": false
+        }
+    ]
+}

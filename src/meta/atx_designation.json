@@ -1,0 +1,769 @@
+{
+    "designation": [
+        {
+            "core": "RR",
+            "description": "Rural Residence",
+            "lot": {
+                "size_min": 43560,
+                "width_min": 100,
+                "unit_max": 1,
+                "coverage_max": 0.20,
+                "impervious_max": 0.25
+                },
+            "massing": {
+                "height_max": 35,
+                "setbacks": {
+                    "front": 40,
+                    "side_street": 25,
+                    "side_interior": 10,
+                    "rear": 20
+                }
+            }
+        },
+        {
+            "core": "SF-1",
+            "description": "Single Family Residence—Large Lot",
+            "lot": {
+                "size_min": 10000,
+                "width_min": 60,
+                "unit_max": 1,
+                "coverage_max": 0.35,
+                "impervious_max": 0.40
+                },
+            "massing": {
+                "height_max": 35,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "SF-2",
+            "description": "Single Family Residence—Standard Lot",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "unit_max": 1,
+                "coverage_max": 0.40,
+                "impervious_max": 0.45
+                },
+            "massing": {
+                "height_max": 35,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "SF-3",
+            "description": "Family Residence",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "unit_max": 1,
+                "coverage_max": 0.40,
+                "impervious_max": 0.45
+                },
+            "massing": {
+                "height_max": 35,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "SF-4A",
+            "description": "Single-Family Residence—Small Lot",
+            "lot": {
+                "size_min": 3600,
+                "width_min": 40,
+                "unit_max": 1,
+                "coverage_max": 0.55,
+                "impervious_max": 0.65
+                },
+            "massing": {
+                "height_max": 35,
+                "setbacks": {
+                    "front": 15,
+                    "side_street": 10,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "SF-4B",
+            "description": "Single-Family Residence Condominium Site",
+            "lot": {
+                "size_min": 43560,
+                "size_max": 217800,
+                "width_min": 40,
+                "building_area_min": 2800,
+                "unit_area_min": 3600,
+                "coverage_max": 0.40,
+                "impervious_max": 0.60
+                },
+            "massing": {
+                "height_stories_max": 2,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 0,
+                    "rear": 15
+                }
+            }
+        },
+        {
+            "core": "SF-5",
+            "description": "Urban Family Residence",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "unit_max": null,
+                "coverage_max": 0.40,
+                "impervious_max": 0.55
+                },
+            "massing": {
+                "height_max": 35,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "SF-6",
+            "description": "Townhouse & Condominium Residence",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "unit_max": null,
+                "coverage_max": 0.40,
+                "impervious_max": 0.55
+                },
+            "massing": {
+                "height_max": 35,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "MF-1",
+            "description": "Multi-Family Residence—Limited Density",
+            "lot": {
+                "size_min": 8000,
+                "width_min": 50,
+                "unit_acre_max": 17,
+                "coverage_max": 0.45,
+                "impervious_max": 0.55,
+                "FAR_max": null
+                },
+            "massing": {
+                "height_max": 40,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "MF-2",
+            "description": "Multi-Family Residence—Low Density",
+            "lot": {
+                "size_min": 8000,
+                "width_min": 50,
+                "unit_acre_max": 23,
+                "coverage_max": 0.50,
+                "impervious_max": 0.60,
+                "FAR_max": null
+                },
+            "massing": {
+                "height_max": 40,
+                "height_stories_max": 3,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "MF-3",
+            "description": "Multi-Family Residence—Medium Density",
+            "lot": {
+                "size_min": 8000,
+                "width_min": 50,
+                "unit_acre_max": 36,
+                "coverage_max": 0.55,
+                "impervious_max": 0.65,
+                "FAR_max": 0.75
+                },
+            "massing": {
+                "height_max": 40,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "MF-4",
+            "description": "Multi-Family Residence—Moderate High Density",
+            "lot": {
+                "size_min": 8000,
+                "width_min": 50,
+                "unit_acre_min": 36,
+                "unit_acre_max": 54,
+                "coverage_max": 0.60,
+                "impervious_max": 0.70,
+                "FAR_max": 0.75
+                },
+            "massing": {
+                "height_max": 70,
+                "setbacks": {
+                    "front": 15,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "MF-5",
+            "description": "Multi-Family Residence—High Density",
+            "lot": {
+                "size_min": 8000,
+                "width_min": 50,
+                "unit_acre_max": 54,
+                "coverage_max": 0.60,
+                "impervious_max": 0.70,
+                "FAR_max": 1
+                },
+            "massing": {
+                "height_max": 60,
+                "setbacks": {
+                    "front": 15,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "MF-6",
+            "description": "Multi-Family Residence—Highest Density",
+            "lot": {
+                "size_min": 8000,
+                "width_min": 50,
+                "coverage_max": 0.70,
+                "impervious_max": 0.80
+                },
+            "massing": {
+                "height_max": 90,
+                "setbacks": {
+                    "front": 15,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 10
+                }
+            }
+        },
+        {
+            "core": "MH",
+            "description": "Mobile Home Residence",
+            "lot": {
+                "size_min": 90000,
+                "unit_min": 5750
+                },
+            "massing": {
+                "height_max": 35
+            }
+        },
+        {
+            "core": "NO",
+            "description": "Neighborhood Office",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.35,
+                "impervious_max": 0.60,
+                "FAR_max": 0.35
+                },
+            "massing": {
+                "height_max": 35,
+                "height_stories_max": 2,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 5
+                }
+            }
+        },
+        {
+            "core": "LO",
+            "description": "Limited Office",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.50,
+                "impervious_max": 0.70,
+                "FAR_max": 0.7
+                },
+            "massing": {
+                "height_max": 40,
+                "height_stories_max": 3,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 5
+                }
+            }
+        },
+        {
+            "core": "GO",
+            "description": "General Office",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.60,
+                "impervious_max": 0.80,
+                "FAR_max": 1
+                },
+            "massing": {
+                "height_max": 60,
+                "setbacks": {
+                    "front": 15,
+                    "side_street": 15,
+                    "side_interior": 5,
+                    "rear": 5
+                }
+            }
+        },
+        {
+            "core": "CR",
+            "description": "Commercial Recreation",
+            "lot": {
+                "size_min": 20000,
+                "width_min": 100,
+                "coverage_max": 0.25,
+                "impervious_max": 0.60,
+                "FAR_max": 0.25
+                },
+            "massing": {
+                "height_max": 40,
+                "setbacks": {
+                    "front": 50,
+                    "side_street": 50,
+                    "side_interior": 20,
+                    "rear": 20
+                }
+            }
+        },
+        {
+            "core": "LR",
+            "description": "Neighborhood Commercial",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.50,
+                "impervious_max": 0.80,
+                "FAR_max": 0.5
+                },
+            "massing": {
+                "height_max": 40,
+                "height_stories_max": 3,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 15,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "GR",
+            "description": "Community Commercial",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.75,
+                "impervious_max": 0.90,
+                "FAR_max": 1
+                },
+            "massing": {
+                "height_max": 60,
+                "setbacks": {
+                    "front": 10,
+                    "side_street": 10,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "L",
+            "description": "Lake Commercial",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.50,
+                "impervious_max": 0.50,
+                "FAR_max": 8
+                },
+            "massing": {
+                "height_max": 200,
+                "setbacks": {
+                    "front": 10,
+                    "side_street": 10,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "CBD",
+            "description": "Central Business District",
+            "lot": {
+                "size_min": null,
+                "width_min": null,
+                "coverage_max": 1.0,
+                "impervious_max": 1.0,
+                "FAR_max": 8
+                },
+            "massing": {
+                "height_max": null,
+                "setbacks": {
+                    "front": 0,
+                    "side_street": 0,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "DMU",
+            "description": "Downtown Mixed Use",
+            "lot": {
+                "size_min": null,
+                "width_min": null,
+                "coverage_max": 1.0,
+                "impervious_max": 1.0,
+                "FAR_max": 5
+                },
+            "massing": {
+                "height_max": 120,
+                "setbacks": {
+                    "front": 0,
+                    "side_street": 0,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "W/LO",
+            "description": "Warehouse Limited Office",
+            "lot": {
+                "size_min": 43560,
+                "width_min": 100,
+                "coverage_max": null,
+                "impervious_max": 0.70,
+                "FAR_max": 0.25
+                },
+            "massing": {
+                "height_max": 25,
+                "height_stories_max": 1,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 25,
+                    "side_interior": 5,
+                    "rear": 25
+                }
+            }
+        },
+        {
+            "core": "CS",
+            "description": "General Commercial Services",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.95,
+                "impervious_max": 0.95,
+                "FAR_max": 2
+                },
+            "massing": {
+                "height_max": 60,
+                "setbacks": {
+                    "front": 10,
+                    "side_street": 10,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "CS-1",
+            "description": "Commercial-Liquor Sales",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.95,
+                "impervious_max": 0.95,
+                "FAR_max": 2
+                },
+            "massing": {
+                "height_max": 60,
+                "setbacks": {
+                    "front": 10,
+                    "side_street": 10,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "CH",
+            "description": "Commercial Highway",
+            "lot": {
+                "size_min": 20000,
+                "width_min": 50,
+                "coverage_max": 0.85,
+                "impervious_max": 0.85,
+                "FAR_max": 3
+                },
+            "massing": {
+                "height_max": null,
+                "setbacks": {
+                    "front": 50,
+                    "side_street": 50,
+                    "side_interior": 25,
+                    "rear": 25
+                }
+            }
+        },
+        {
+            "core": "IP",
+            "description": "Industrial Park",
+            "lot": {
+                "size_min": 43560,
+                "width_min": 100,
+                "coverage_max": 0.50,
+                "impervious_max": 0.80,
+                "FAR_max": 1
+                },
+            "massing": {
+                "height_max": 60,
+                "setbacks": {
+                    "front": 25,
+                    "side_street": 25,
+                    "side_interior": 50,
+                    "rear": 50
+                }
+            }
+        },
+        {
+            "core": "MI",
+            "description": "Major Industry",
+            "lot": {
+                "size_min": 2178000,
+                "width_min": 250,
+                "coverage_max": 0.75,
+                "impervious_max": 0.80,
+                "FAR_max": 1
+                },
+            "massing": {
+                "height_max": 120,
+                "setbacks": {
+                    "front": 0,
+                    "side_street": 0,
+                    "side_interior": 50,
+                    "rear": 50
+                }
+            }
+        },
+        {
+            "core": "LI",
+            "description": "Limited Industrial Service",
+            "lot": {
+                "size_min": 5750,
+                "width_min": 50,
+                "coverage_max": 0.75,
+                "impervious_max": 0.80,
+                "FAR_max": 1
+                },
+            "massing": {
+                "height_max": 60,
+                "setbacks": {
+                    "front": 0,
+                    "side_street": 0,
+                    "side_interior": 0,
+                    "rear": 0
+                }
+            }
+        },
+        {
+            "core": "R&D",
+            "description": "Research and Development",
+            "lot": {
+                "size_min": 217800,
+                "width_min": 100,
+                "coverage_max": 0.40,
+                "impervious_max": 0.50,
+                "FAR_max": 0.25
+                },
+            "massing": {
+                "height_max": 45,
+                "setbacks": {
+                    "front": 75,
+                    "side_street": 100,
+                    "side_interior": 100,
+                    "rear": 50
+                }
+            }
+        },
+        {
+            "core": "ERC",
+            "description": "East Riverside Corridor",
+            "lot": {
+                "FAR_max": 4
+            },
+            "massing": {
+                "height_max": 50
+            }
+        },
+        {
+            "core": "PUD",
+            "description": "Planned Unit Development",
+            "lot": {
+                "FAR_max": 10
+            },
+            "massing": {
+                "height_max": 140
+            }
+        },
+        {
+            "core": "TOD",
+            "description": "Transit-Oriented Development",
+            "lot": {
+                "FAR_max": 5
+            },
+            "massing": {
+                "height_max": 120
+            }
+        },
+        {
+            "core": "NO-MU",
+            "description": "Neighborhood Office Mixed_use",
+            "lot": {
+                "FAR_max": 0.35
+                },
+            "massing": {
+                "height_max": 35
+            }
+        },
+        {
+            "core": "LO-MU",
+            "description": "Limited Office Mixed-Use",
+            "lot": {
+                "FAR_max": 0.7
+            },
+            "massing": {
+                "height_max": 40
+            }
+        },
+        {
+            "core": "LR-MU",
+            "description": "Neighborhood Commercial Mixed-Use",
+            "lot": {
+                "FAR_max": 0.5
+            },
+            "massing": {
+                "height_max": 40
+            }
+        },
+        {
+            "core": "GO-MU",
+            "description": "General Office Mixed-Use",
+            "lot": {
+                "FAR_max": 1
+            },
+            "massing": {
+                "height_max": 60
+            }
+        },
+        {
+            "core": "GR-MU",
+            "description": "Community Commercial Mixed-Use",
+            "lot": {
+                "FAR_max": 1
+            },
+            "massing": {
+                "height_max": 60
+            }
+        },
+        {
+            "core": "GR-MU/MF-6",
+            "description": "Community Commercial Mixed-Use",
+            "lot": {
+                "FAR_max": 1
+            },
+            "massing": {
+                "height_max": 60
+            }
+        },
+        {
+            "core": "CS-MU",
+            "description": "General Commercial Mixed-Use",
+            "lot": {
+                "FAR_max": 2
+            },
+            "massing": {
+                "height_max": 60
+            }
+        },
+        {
+            "core": "CS-MU/MF-6",
+            "description": "General Commercial Mixed-Use",
+            "lot": {
+                "FAR_max": 2
+            },
+            "massing": {
+                "height_max": 60
+            }
+        },
+        {
+            "core": "CS-1-MU",
+            "description": "General Commercial Mixed-Use",
+            "lot": {
+                "FAR_max": 2
+            },
+            "massing": {
+                "height_max": 60
+            }
+        }
+    ]
+}
+
+

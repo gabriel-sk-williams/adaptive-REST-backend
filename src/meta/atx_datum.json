@@ -1,0 +1,19 @@
+{
+    "datum": {
+        "center": [
+            -97.7472222,
+            30.26475
+        ],
+        "bound_box": {
+            "minlat": 30.1,
+            "minlon": -97.99,
+            "maxlat": 30.71,
+            "maxlon": -97.54
+        },
+        "elevation": 155,
+        "radius_hex": 0.022,
+        "radius_deg": 0.0295,
+        "radius_mi": 2.040574,
+        "radius_km": 3.28
+    }
+}
