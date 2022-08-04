@@ -1,11 +1,11 @@
-## RESTful backend
+## REST backend update for Adaptive
 
-Express
+React -> Express -> Cypher
 
-Adaptive is a virtual graph database that aggregrates inputs from distributed sources and gives them a common data model, enabling urban data of all shapes and sizes to be connected, retrieved, and analyzed in a unified interface.
+Adaptive now queries a Neo4j graph database to render urban components in a unified interface.
 
-![Nodes](/../media/jpg/locales.jpg?raw=true "Nodes")
+![Adaptive](/../media/gif/data_points.gif?raw=true "Adaptive")
 
-The graph data structure enables a web interface which can run queries across entire cities, generate reports and policy assessments, and use urban economic models, like the Monocentric Model shown below, to demonstrate how markets and policy inform the urban landscape.
+With CypherQL, the backend can query connected nodes more easily than in conventional databases. This molecular data structure will enable to planners and developers to run powerful queries and calculations for single sites or across entire cities.
 
-![The Monocentric Model](/../media/gif/data_points.gif?raw=true "The Monocentric Model")
+![Node Structure](/../media/jpg/locales.jpg?raw=true "Node Structure")
