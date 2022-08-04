@@ -2,7 +2,7 @@
 
 React -> Express -> Cypher
 
-Adaptive now queries a Neo4j graph database to render urban components using WebGL
+Adaptive now queries a Neo4j graph database to render urban components using WebGL.
 
 ![Adaptive](/../media/gif/data_points.gif?raw=true "Adaptive")
 
